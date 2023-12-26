@@ -745,6 +745,7 @@ html,body{
     font-size: 1vw;
     color: black;
     font-weight: 900;
+    text-decoration: none;
 }
 #page9 .left span{
     padding-right: 1vw;
