@@ -388,7 +388,7 @@ html,body{
 #page4{
     /* background-color: teal; */
     min-height: 60vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     /* align-items: center; */
     /* justify-content: space-between; */
@@ -455,7 +455,7 @@ html,body{
 
 #page5{
     /* background-color: salmon; */
-    width: 100vw;
+   width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -483,7 +483,7 @@ html,body{
 
 #page6{
     /* background-color: teal; */
-    width: 100vw;
+   width: 100%;
     min-height: 60vh;
     display: flex;
     justify-content: flex-start;
@@ -578,7 +578,7 @@ html,body{
 
 /* page7 styling */
 #page7{
-    width: 100vw;
+    width: 100%;
     min-height: 80vh;
     /* background-color: teal; */
     display: flex;
@@ -642,7 +642,7 @@ html,body{
 
 #page8{
     /* background-color: teal; */
-    width: 100vw;
+    width: 100%;
     min-height: 95vh;
     display: flex;
     align-items: start;
@@ -729,7 +729,7 @@ html,body{
 
 #page9{
     /* background-color: yellow; */
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -793,7 +793,7 @@ html,body{
 
 #page10{
     /* background-color: teal; */
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
