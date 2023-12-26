@@ -747,9 +747,13 @@ html,body{
     font-weight: 900;
     text-decoration: none;
 }
+#page9 .left a{
+    text-decoration: none;
+    
 #page9 .left span{
     padding-right: 1vw;
     font-size: 1.5vw;
+    text-decoration: none;
 }
 #page9 .left h1, .right h1{
     font-size: 1vw;
