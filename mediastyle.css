@@ -1,0 +1,597 @@
+@media(max-width:600px){
+
+    #nav{
+        padding: 15px;
+        /* background-color: seagreen; */
+    }
+
+    #links{
+        display: none;
+    }
+    #nav-part1{
+        height: 67px;
+        /* background-color: gold; */
+    }
+
+    #nav-part1 svg{
+        height: 67px;
+        width: 80px;
+    }
+
+    #nav #twogoodlogo{
+        height: 40px;
+        margin-left: -20px;
+    }
+
+    #icons{
+        padding: 7px;
+    }
+
+    #nav-part2 #icons i{
+        font-size: 15px;
+    }
+
+    #page1{
+        min-height: 55vh;
+        width: 100%;
+        padding: 0 3vw;
+        padding-top: 25vw;
+        /* background-color: aqua; */
+
+    }
+
+    #page1 h1{
+        font-size: 15.5vw;
+        line-height: 14vw;
+        letter-spacing: -3px;
+    }
+
+    
+    #video-container{
+    height: 25vh;
+    margin-top: 3vw;
+    
+
+    }
+   
+
+    #video-container #play{
+        padding: 9.5vw 7.2vw;
+        font-size: 4.5vw;
+        font-family: futura;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate(-50%,-50%);
+    
+    
+    }
+
+    #page2{
+       
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        padding: 5vw 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: seagreen; */
+    }
+    #page2 .elem{
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+        overflow: hidden;
+        margin-bottom: 3vw;
+    }
+
+
+    #page2 .elem .dets{
+        height: 60vw;
+        width: 75%;
+        background-color: transparent;
+        
+        
+    }
+    
+    #page2 .elem .dets .top{
+        height: 15%;
+        width: 100%;
+ 
+        
+    }
+    #page2 .elem .dets .top h1{
+        font-size: 4vw;
+        color: #333;
+    }
+    
+    #page2 .elem .dets .bottom{
+        width: 100%;
+        height: 90%;
+        
+    }
+    
+    #page2 .elem .dets .bottom img{
+        width: 40%;
+        height:60%;
+        /* border: 1px solid grey; */
+        /* border-radius: 10px; */
+        padding: 0.5vw;
+        /* background-color: aqua; */
+    }
+    
+    #page2 .elem .dets:hover .bottom{
+        opacity: 1;
+    }
+    
+    #page3{
+        /* background-color: teal; */
+        min-height: 165vh;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        
+    }
+    .child{
+        /* background-color: rebeccapurple; */
+        height: 40vh;
+        width: 88vw;
+        justify-content: flex-start;
+        gap: 2vw;
+        /* padding: 13vw; */
+    }
+    .child img{
+        height: 100%;
+        width: 90%;
+        /* background-color: aquamarine; */
+        
+        
+    }
+
+
+
+    
+.child{
+   
+    width: 90%;
+}
+.child h1{
+    font-size: 4vw;
+    text-align: center; 
+}
+
+.child img{
+    height: 80%;
+}
+/* page4 styling */
+
+#page4{
+    /* background-color: teal; */
+    min-height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* gap: 10vw; */
+    padding: 3vw 1vw;
+}
+
+#page4 .left{
+    /* background-color: red; */
+    width: 90%;
+}
+#page4 .right{
+    /* background-color: green; */
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    gap: 10vw;
+}
+
+#page4 .left h1{
+    font-size: 10vw;
+    font-family: 'Rethink Sans';
+    text-align: center;
+    
+}
+
+#page4 .right p{
+    font-size: 4vw;
+    line-height: 4.5vw;
+    
+}
+
+#page4 .right button{
+    width: 35vw;
+    height: 12vw;
+    font-size: 4vw;
+}
+/* page5 styling */
+#page5{
+    /* background-color: salmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page5 .top{
+    padding-top: 6vw;   
+}
+#page5 .top h1{
+    font-size: 3vw;
+    padding: 0 2vw;
+}
+
+#page5 .bottom{
+    width: 100%;
+    margin-top: 2vw;
+    height: 0.2vw;
+    background-color: #333;
+}
+
+
+#page6{
+    display: none;
+}
+
+
+#page6-mobile{
+    /* background-color: teal; */
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content:start;
+    /* gap: 3vw; */
+    
+    flex-direction: column-reverse;
+}
+#page6-mobile .top{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: vw 0vw; */
+    height: 3%;
+}
+
+#page6-mobile .top h1{
+    font-size: 3.09vw;
+    text-transform: uppercase;
+    color: black;
+    padding: 1vw 3vw;
+}
+#page6-mobile .middle{
+    width: 100%;
+    height: 1px;
+    /* padding-bottom: 3vw; */
+    background-color: #333;
+    /* background-color: green; */
+}
+#page6-mobile .bottom{
+    width: 100%;
+    /* background-color: yellow; */
+    padding: 5vw 0vw;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    /* position: relative; */
+}
+#page6-mobile .bottom .img{
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    /* height: 100%; */
+    /* aspect-ratio: 1/1; */
+    /* position: relative; */
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+#page6-mobile .bottom .img .detail h1{
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    color: white;
+    left: 36%; 
+    /* transform: translate(50%,50%); */
+    /* background-color: palegoldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    font-size: 10vw;
+    font-weight: 900;
+    font-family: 'roboto';
+    text-align: center;
+}
+#page6-mobile .bottom .img .detail img{
+    /* display: none; */
+    width: 80%;
+    /* background-color: palegreen; */
+    color: white;
+}
+#page6-mobile .bottom .img .detail{
+    /* background-color: pink; */
+    position: absolute;
+    transform: translate(2.5vw,15vw);
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+
+#page6-mobile .bottom .img1{
+    /* background-color: aqua; */
+    width: 90%;
+    height: 50%;
+}
+
+#page6-mobile .bottom .img2{
+    animation: rtt 10s linear infinite;
+}
+
+@keyframes rtt {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+
+
+
+
+
+#page7{
+    width: 100vw;
+    min-height: 45vh;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 5vw;
+}
+#page7 .top{
+    width: 90%;
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 5vw;
+}
+
+#page7 .top h1{
+    font-size: 7.5vw;
+}
+#page7 .bottom{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 3vw;
+}
+#page7 .bottom p{
+    font-size: 4vw;
+    font-weight: 900;
+    color: black;
+    line-height:5vw;
+    text-align: center;
+    
+    padding: 1vw;
+    padding-bottom: 5vw;
+    
+}
+#page7 .bottom  button{
+    width: 50vw;
+    height: 12vw;
+    font-size: 4vw;
+    border-radius: 3.5vw;
+    border: none;
+   
+}
+
+/* page8 styling */
+
+#page8{
+    /* background-color: teal; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 5vw 1vw;
+    /* padding-right: 3vw; */
+    /* padding-left: 3vw; */
+
+    /* gap: 5vw; */
+    border-top: 1px solid grey;
+    
+}
+
+#page8 .left{
+    /* background-color: pink; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: start; */
+    /* padding-right:  1vw; */
+    padding: 0;
+   
+}
+#page8 .left h1{
+    font-size: 7vw;
+    font-family: 'helvetica';
+    padding-top: 3vw;
+}
+#page8 .left h2{
+    font-size: 4vw;
+    text-align: center;
+
+
+}
+#page8 .left h3{
+    font-size: 3vw;
+}
+
+#page8 .right{
+    width: 100%;
+    /* background-color: red; */
+    flex-direction: column;
+    
+}
+
+#page8 .right img{
+    width: 90%;
+    
+}
+
+#page9{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 1vw;
+    min-height: 30vh;
+    border-top: 1px solid grey;
+
+}
+#page9 .left{
+    /* background-color:green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 4vw;
+    /* height: ; */
+    min-height: 20vh;
+    width: 70%;
+    /* gap: 2vw; */
+}
+
+#page9 .right{
+    /* background-color: rebeccapurple; */
+    width: 80%;
+    min-height: 20vh;
+    line-height: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
+    padding-right: 2vw;
+}
+#page9 .left a,#page9 .right a{
+    font-size: 3.5vw;
+    color: black;
+    font-weight: 900;
+    /* background-color: brown; */
+    
+}
+
+#page9 .left span i{
+    /* padding-right: 1vw; */
+    font-size: 4vw;
+}
+#page9 .left h1,#page9 .right h1{
+    /* font-size: 1vw; */
+    /* background-color: aquamarine; */
+    color: black;
+    /* line-height: 1.5vw; */
+    font-weight: 900;
+}
+
+#page9 .middle{
+    border-color: blue;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#page9 .left h1:first-child , .right h1:first-child{
+    font-size: 4vw;
+}
+
+#page9 .middle img{
+    width: 40%;
+    height: 40%;
+}
+
+
+#page10{
+    /* background-color: teal; */
+    justify-content: start;
+    gap: 3vw;
+    min-height: 50vh;
+    border-top: 1px solid grey;
+
+
+}
+#page10 .top{
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10vw;
+    
+}
+#page10 .top h1{
+    font-size: 3vw;
+}
+
+#page10 .bottom{
+    /* background-color: yellow; */
+    width: 100%;
+}
+#page10 .bottom p{
+    font-size: 3vw;
+    line-height: 5vw;
+    padding: 2vw;
+}
+
+#creator{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #333;
+    /* background-color: red; */
+}
+#creator h1{
+    font-size: 3.5vw;
+    font-style: italic;
+    color: grey;
+}
+
+
+
+#page20{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
