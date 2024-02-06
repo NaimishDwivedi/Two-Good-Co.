@@ -297,7 +297,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    overflow:hidden;
+    overflow: hidden;
 /*     opacity: 0; */
     transition-timing-function: linear;
     transition-delay: 0s;
